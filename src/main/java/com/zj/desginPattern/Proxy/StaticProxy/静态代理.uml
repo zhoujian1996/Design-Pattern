@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="106.125" y="111.0">com.zj.designPattern.Proxy.StaticProxy.TeacherDao</node>
+    <node x="41.098214285714306" y="0.0">com.zj.designPattern.Proxy.StaticProxy.IteacherDao</node>
+    <node x="0.0" y="222.0">com.zj.designPattern.Proxy.StaticProxy.TeacherDaoProxy</node>
+    <node x="66.125" y="360.0">com.zj.designPattern.Proxy.StaticProxy.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zj.designPattern.Proxy.StaticProxy.TeacherDaoProxy" target="com.zj.designPattern.Proxy.StaticProxy.TeacherDao">
+      <point x="0.0" y="-44.0" />
+      <point x="109.5" y="197.0" />
+      <point x="127.25" y="197.0" />
+      <point x="-63.375" y="30.5" />
+    </edge>
+    <edge source="com.zj.designPattern.Proxy.StaticProxy.TeacherDao" target="com.zj.designPattern.Proxy.StaticProxy.IteacherDao">
+      <point x="0.0" y="-30.5" />
+      <point x="190.625" y="86.0" />
+      <point x="167.84821428571428" y="86.0" />
+      <point x="42.249999999999986" y="30.5" />
+    </edge>
+    <edge source="com.zj.designPattern.Proxy.StaticProxy.Client" target="com.zj.designPattern.Proxy.StaticProxy.TeacherDao">
+      <point x="81.75" y="-30.5" />
+      <point x="256.875" y="335.0" />
+      <point x="240.5" y="335.0" />
+      <point x="240.5" y="197.0" />
+      <point x="254.0" y="197.0" />
+      <point x="63.37499999999999" y="30.5" />
+    </edge>
+    <edge source="com.zj.designPattern.Proxy.StaticProxy.TeacherDaoProxy" target="com.zj.designPattern.Proxy.StaticProxy.IteacherDao">
+      <point x="-73.0" y="-44.0" />
+      <point x="36.5" y="197.0" />
+      <point x="64.71428571428572" y="197.0" />
+      <point x="64.71428571428572" y="86.0" />
+      <point x="83.3482142857143" y="86.0" />
+      <point x="-42.25" y="30.5" />
+    </edge>
+    <edge source="com.zj.designPattern.Proxy.StaticProxy.Client" target="com.zj.designPattern.Proxy.StaticProxy.TeacherDaoProxy">
+      <point x="-81.75" y="-30.5" />
+      <point x="93.375" y="335.0" />
+      <point x="54.75" y="335.0" />
+      <point x="-54.75" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="2.1000000000000005" x="172.18343936765" y="246.8571428571428" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

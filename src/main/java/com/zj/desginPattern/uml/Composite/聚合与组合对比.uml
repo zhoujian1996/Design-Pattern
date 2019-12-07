@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="85.0">com.zj.desginPattern.uml.Composite.Person</node>
+    <node x="10.999999999999986" y="0.0">com.zj.desginPattern.uml.Composite.Head</node>
+    <node x="131.0" y="0.0">com.zj.desginPattern.uml.Composite.IdCard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zj.desginPattern.uml.Composite.Person" target="com.zj.desginPattern.uml.Composite.Head">
+      <point x="0.0" y="-43.5" />
+      <point x="91.5" y="60.0" />
+      <point x="85.99999999999999" y="60.0" />
+      <point x="25.0" y="17.5" />
+    </edge>
+    <edge source="com.zj.desginPattern.uml.Composite.Person" target="com.zj.desginPattern.uml.Composite.IdCard">
+      <point x="61.0" y="-43.5" />
+      <point x="152.5" y="60.0" />
+      <point x="185.5" y="60.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="2.3000000000000007" x="136.83333333333326" y="78.77034559643249" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

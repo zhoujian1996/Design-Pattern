@@ -1,0 +1,22 @@
+动态代理模式的基本介绍:
+
+            1)代理对象，不需要实现接口，但是目标对象要实现接口，否则不能用动态代理
+
+            2)代理对象的生成，是利用JDK的API,动态的在内存中构建处理对象
+
+            3）动态代理也叫作：JDK代理，接口代理
+
+
+JDK中生成代理对象的API:
+
+              1)代理类所在包：java.lang.reflect.Proxy
+
+                {@code Proxy} provides static methods for creating dynamic proxy
+                 * classes and instances, and it is also the superclass of all
+                 * dynamic proxy classes created by those methods.
+
+              2)JDK实现代理只需要使用newProxy
+
+              public static Object newProxyInstance(ClassLoader loader,
+                                                        Class<?>[] interfaces,
+                                                        InvocationHandler h)

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="291.0" y="0.0">com.zj.desginPattern.uml.Dependency.DepartMent</node>
+    <node x="461.0" y="0.0">com.zj.desginPattern.uml.Dependency.IdCard</node>
+    <node x="160.00000000000003" y="0.0">com.zj.desginPattern.uml.Dependency.Person</node>
+    <node x="0.0" y="0.0">com.zj.desginPattern.uml.Dependency.PersonDao</node>
+    <node x="193.0" y="85.0">com.zj.desginPattern.uml.Dependency.PersonSeviceBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zj.desginPattern.uml.Dependency.PersonSeviceBean" target="com.zj.desginPattern.uml.Dependency.PersonDao">
+      <point x="-108.39999999999995" y="-71.5" />
+      <point x="220.10000000000008" y="65.0" />
+      <point x="70.0" y="65.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="com.zj.desginPattern.uml.Dependency.PersonSeviceBean" target="com.zj.desginPattern.uml.Dependency.DepartMent">
+      <point x="2.8421709430404007E-14" y="-71.5" />
+      <point x="-37.5" y="17.5" />
+    </edge>
+    <edge source="com.zj.desginPattern.uml.Dependency.PersonSeviceBean" target="com.zj.desginPattern.uml.Dependency.IdCard">
+      <point x="108.4" y="-71.5" />
+      <point x="436.90000000000003" y="65.0" />
+      <point x="515.5" y="65.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="com.zj.desginPattern.uml.Dependency.PersonSeviceBean" target="com.zj.desginPattern.uml.Dependency.Person">
+      <point x="-54.19999999999996" y="-71.5" />
+      <point x="274.30000000000007" y="55.0" />
+      <point x="215.50000000000003" y="55.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.6" x="167.5" y="57.02449633699638" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

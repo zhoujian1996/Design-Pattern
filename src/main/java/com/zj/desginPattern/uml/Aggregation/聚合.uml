@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="148.25" y="0.0">com.zj.desginPattern.uml.Aggregation.Mouse</node>
+    <node x="0.0" y="85.0">com.zj.desginPattern.uml.Aggregation.Computer</node>
+    <node x="7.25" y="0.0">com.zj.desginPattern.uml.Aggregation.Monitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zj.desginPattern.uml.Aggregation.Computer" target="com.zj.desginPattern.uml.Aggregation.Monitor">
+      <point x="-33.875" y="-96.0" />
+      <point x="101.625" y="60.0" />
+      <point x="98.0" y="60.0" />
+      <point x="30.25" y="17.5" />
+    </edge>
+    <edge source="com.zj.desginPattern.uml.Aggregation.Computer" target="com.zj.desginPattern.uml.Aggregation.Mouse">
+      <point x="101.625" y="-96.0" />
+      <point x="237.125" y="60.0" />
+      <point x="231.5" y="60.0" />
+      <point x="27.75" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="2.2000000000000006" x="177.08420011361193" y="80.31818181818176" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

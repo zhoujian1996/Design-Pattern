@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">com.zj.designPattern.Proxy.Model.ProxyObject</node>
+    <node x="8.0" y="138.0">com.zj.designPattern.Proxy.Model.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zj.designPattern.Proxy.Model.Client" target="com.zj.designPattern.Proxy.Model.ProxyObject">
+      <point x="-67.0" y="-44.0" />
+      <point x="75.0" y="113.0" />
+      <point x="71.0" y="113.0" />
+      <point x="-71.0" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="176.28571428571433" y="155.14285714285725" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

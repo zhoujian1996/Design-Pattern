@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="24.5" y="0.0">com.zj.desginPattern.uml.Generalization.DaoSupport</node>
+    <node x="0.0" y="85.0">com.zj.desginPattern.uml.Generalization.PersonServiceBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zj.desginPattern.uml.Generalization.PersonServiceBean" target="com.zj.desginPattern.uml.Generalization.DaoSupport">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="2.500000000000001" x="149.16923076923075" y="87.63665158371037" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
